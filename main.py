@@ -1,6 +1,4 @@
-def main():
-    print("Hello from my-bot!")
-
+from my_bot.main import main
 
 if __name__ == "__main__":
     main()
