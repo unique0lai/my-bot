@@ -30,6 +30,7 @@
    - `uv run pytest`
 2. 执行提交，提交信息必须符合 Conventional Commits。
 3. 推送前确保 `pre-push` 阶段测试通过。
+4. 执行 `git commit` / `git push` 时，优先使用 `uv run git ...`（如 `uv run git commit ...`、`uv run git push`），避免 hooks 因找不到 `pre-commit` 失败。
 
 ## Conventional Commits 约束
 
