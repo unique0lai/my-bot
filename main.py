@@ -1,5 +1,5 @@
 def main():
-    print("Hello from bk-monitor-bot!")
+    print("Hello from my-bot!")
 
 
 if __name__ == "__main__":
