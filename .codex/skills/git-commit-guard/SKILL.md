@@ -10,9 +10,6 @@ description: 执行 git commit/push 的质量门禁，强制 Conventional Commit
 ## 必须遵守
 
 1. 先执行代码检查与测试，再提交：
-   - `uv run ruff check .`
-   - `uv run basedpyright`
-   - `uv run pytest`
    - `uv run pre-commit run --all-files`
 2. 提交信息必须遵守 Conventional Commits。
    - 示例：`feat(scope): short summary`
